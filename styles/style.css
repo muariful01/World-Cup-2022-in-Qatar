@@ -516,6 +516,42 @@ footer{
         opacity: 70%;
         font-size: 18px;
     }
+    /* Footer section styles */
+    footer{
+        width: auto;
+        height: 445px;
+        background-color: var(--gray);
+    }
+    .footer-details {
+        width: 734px;
+    }
+    .footer-details h3 {
+        font-size: 40px;
+    }
+    .footer-contacts {
+        width: 635px;
+        height: 100px;
+    }
+    .footer-contacts ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-contacts ul li {
+        margin: 26px 11px;
+    }
+    
+    .footer-contacts ul li:nth-child(6) {
+        margin-right: 218px;
+    }
+    
+    .footer-contacts ul li:nth-child(5) {
+        margin-left: 216px;
+    }
+    .footer-contacts ul li a {
+        font-size: 19px;
+        font-weight: 500;
+    }
+    
 
 }
 
