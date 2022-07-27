@@ -10,6 +10,13 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --black: #161616;
+    --white: #fff;
+    --red:red;
+    --LightSeaGreen:#1ABC9C;
+    --gray:#545454;
+  }
 h1, h2, h3, h4, h5, h6{
     margin: 0;
     padding: 0;
@@ -29,7 +36,7 @@ body{
 .header-top{
     width: 1320px;
     height: 646px;
-    background-color: #161616;
+    background-color: var(--gray);
     /* margin-top: 50px; */
     border-radius: 15px;
 }
@@ -52,7 +59,7 @@ body{
 }
 
 .header-title {
-    color: #fff;
+    color: var(--white);
     font-size: 70px;
     margin-bottom: 20px;
 }
@@ -67,7 +74,7 @@ body{
 .btn {
     width: 187px;
     height: 56px;
-    background-color: red;
+    background-color: var(--LightSeaGreen);
     font-size: 20px;
     border-radius: 10px;
     border: none;
@@ -133,7 +140,7 @@ body{
 }
 .navbar-btn a {
     text-decoration: none;
-    color: #000;
+    color: var(--black);
 }
 
 .navbar-btn {
@@ -143,7 +150,7 @@ body{
     font-weight: 500;
 }
 .active {
-    background: red;
+    background: var(--LightSeaGreen);
    
 }
 .active .navbar-btn a{
@@ -317,7 +324,7 @@ body{
 footer{
     width: auto;
     height: 444px;
-    background-color: #161616;
+    background-color: var(--gray);
 }
 .footer-details {
     width: 1320px;
@@ -428,7 +435,88 @@ footer{
     .header-image img {
         width: 100%;
     }
+    /* world Cup section styles */
+    .worldCup-top {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .worldCup-nav {
+        Width: 734px;
+        Height: 64px;
+        display: flex;
+        justify-content: space-between;
+        background: transparent;
+        margin-bottom: 30px;
+    }
+    .wc-navBar {
+        width: 230px;
+        height: 64px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid #ddd;
+        margin: 0px;
+    }
+    .worldCup-carts {
+        width: 734px;
+        height: 1283px;
+        margin-bottom: 30px;
+    }
+    .worldCup-carts-top {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        grid-row-gap: 0px;
+        grid-column-gap: 0px;
+    }
+    .worldCup-cart {
+        width: 357px;
+        height: 414px;
+        border: 1px solid #ddd;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+    .cart-image {
+        width: 357px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .cart-image img {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    .tag {
+        height: 32px;
+        font-size: 22px;
     
+        padding: 4px 0px 0px 0px;
+    
+    }
+    .cart-details {
+        width: 311px;
+        height: 60px;
+    }
+    .cart-details h3 {
+        font-size: 20px;
+    }
+    .cart-duration-comments {
+        width: 163px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hour {
+        color: #161616;
+        opacity: 70%;
+        font-size: 18px;
+    }
+    .comment {
+        color: #161616;
+        opacity: 70%;
+        font-size: 18px;
+    }
+
 }
 
 
