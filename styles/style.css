@@ -237,7 +237,9 @@ body{
 .comment i {
     margin-right: 3px;
 }
-
+.btn-view{
+    display: none;
+}
 /* ============================================
         ------   UpComing Match Styles  ---------
 ===============================================*/
@@ -469,6 +471,7 @@ footer{
         justify-content: space-between;
         grid-row-gap: 0px;
         grid-column-gap: 0px;
+        position: relative;
     }
     .worldCup-cart {
         width: 357px;
@@ -516,6 +519,26 @@ footer{
         opacity: 70%;
         font-size: 18px;
     }
+    /* view all button styles */
+    .btn-view{
+        display: block;
+        width: 122px;
+        height: 40px;
+        border: none;
+        outline: none;
+        background: red;
+        border-radius: 6px;
+        position: absolute;
+        bottom: -66px;
+        left: 304px;
+    }
+    .btn-view a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
     /* Upcoming Macth styles */
     .Upcoming-carts{
         width: 734px;
@@ -527,14 +550,21 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 24px;
         grid-column-gap: 24px;
+        position: relative;
     }
     .upComing-match-cart{
         width: 353px;
-        height: 242px;
+        height: 227px;
         border: 1px solid #ddd;
         border-radius: 10px;
     }
-
+    .flags {
+        margin: 50px auto 20px;
+    }
+    .flags-name {
+    
+        margin: 20px auto 45px;
+    }
 
 
 
