@@ -609,69 +609,77 @@ footer{
 }
     /* Mobile Device Responsive Design */
     @media screen and (max-width:767px){
-        .container{
-            width: 335px;
-            margin: auto;
-            padding-top: 100px;
-        }
-        .header-top{
-            width: 335px;
-            height: 472px;
-            background-color: var(--gray);
-            border-radius: 15px;
-        }
-        .header-row{
-            display: grid;
-            grid-template-rows: repeat(2, 1fr);
-            width: 258px;
-            height: 444px;
-            padding: 28px 40px 0px 40px;
-        }
-        .header-1{
-            width: 258px;
-            height: 178px;
-        }
-        .header-info {
-            width: 258px;
-        }
-        .header-title {
-            color: var(--white);
-            font-size: 24px;
-            margin-bottom: 8px;
-            text-align: center;
-            font-weight: 700;
-            line-height: 33px;
-        }
-        .disp{
-            display: none;
-        }
-        .header-text {
-            color: #fff;
-            font-size: 14px;
-            line-height: 24px;
-            margin-bottom: 20px;
-            width: 258px;
-            text-align: center;
-        }
-        .btn {
-            width: 146px;
-            height: 40px;
-            font-size: 17px;
-            border-radius: 3px;
-            margin: 0 48px;
-        }
-        .btn i {
-            color: #fff;
-            margin-left: 10px;
-            font-size: 16px;
-            transition: 0.3s;
-        }
-        /*---- header-2 -------*/
-        .header-2{
-            width: 233px;
-            height: 245px;
-            margin: 199px 0px 0px -234px;
-        }
+    .container{
+        width: 335px;
+        margin: auto;
+        padding-top: 100px;
+    }
+    .header-top{
+        width: 335px;
+        height: 472px;
+        background-color: var(--gray);
+        border-radius: 15px;
+    }
+    .header-row{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        width: 258px;
+        height: 444px;
+        padding: 28px 40px 0px 40px;
+    }
+    .header-1{
+        width: 258px;
+        height: 178px;
+    }
+    .header-info {
+        width: 258px;
+    }
+    .header-title {
+        color: var(--white);
+        font-size: 24px;
+        margin-bottom: 8px;
+        text-align: center;
+        font-weight: 700;
+        line-height: 33px;
+    }
+    .disp{
+        display: none;
+    }
+    .header-text {
+        color: #fff;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 20px;
+        width: 258px;
+        text-align: center;
+    }
+    .btn {
+        width: 146px;
+        height: 40px;
+        font-size: 17px;
+        border-radius: 3px;
+        margin: 0 48px;
+    }
+    .btn i {
+        color: #fff;
+        margin-left: 10px;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+    /*---- header-2 -------*/
+    .header-2{
+        width: 233px;
+        height: 245px;
+        margin: 199px 0px 0px -234px;
+    }
+    /*------   worldCup Styles  ---------*/
+    .worldCup-top{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 100px;
+        grid-row-gap: 50px;
+    }
+    
 }
 
 
